@@ -1,0 +1,146 @@
+        #menubar{
+            color:white;
+        }
+
+        .menu:hover{
+            background-color:white;
+            opacity:0.5;
+            color: black;
+            transition-property: background;
+            transition-duration: 0.2s;
+        }
+
+        #aboutus{
+            display:none;
+            color: white;
+        }
+
+        #aboutus div a{
+            color: inherit;
+        }
+
+        #menu2:hover ~ #aboutus{
+            display:block;
+        }
+
+        #aboutus:hover{
+            display:block;
+        }
+
+        #aboutus div:hover{
+            background-color:white;
+            opacity:0.5;
+            color: black;
+            transition-property: background;
+            transition-duration: 0.2s;
+        }
+
+        #events{
+            display:none;
+            color: white;
+        }
+
+        #events div a{
+            color: inherit;
+        }
+
+        #menu3:hover ~ #events{
+            display:block;
+        }
+
+        #events:hover{
+            display:block;
+        }
+
+        #events div:hover{
+            background-color:white;
+            opacity:0.5;
+            color: black;
+            transition-property: background;
+            transition-duration: 0.2s;
+        }
+
+        #leftbut{
+            opacity: 0.5;
+        }
+
+        #leftbut:hover{
+            opacity: 1.0;
+        }
+        
+        #rightbut{
+            opacity:0.5;
+        }
+        #rightbut:hover{
+            opacity:1.0;
+        }
+
+        #banner1{
+            position: absolute; 
+            left:0vw;
+            display: inline-block; 
+            height:50vh; 
+            width:100vw; 
+            border:0px; 
+            padding:0px; 
+            background-color:red; 
+            background-size: 100vw 100%; 
+            background-repeat: no-repeat;
+            transition-property: left;
+            transition-duration: 1s;
+            z-index:0;
+        }
+
+        #banner2{
+            position: absolute; 
+            left:-100vw; 
+            display: inline-block; 
+            height:50vh; 
+            width:100vw; 
+            border:0px; 
+            padding:0px; 
+            background-color:yellow; 
+            background-size: 100vw 100%; 
+            background-repeat: no-repeat;
+            transition-property: left;
+            transition-duration: 1s;
+            z-index:0;
+        }
+
+        #banner3{
+            position: absolute; 
+            left:100vw; 
+            display: inline-block; 
+            height:50vh; 
+            width:99vw; 
+            border:0px; 
+            padding:0px; 
+            background-color:blue; 
+            background-size: 100vw 100%; 
+            background-repeat: no-repeat;
+            transition-property: left;
+            transition-duration: 1s;
+            z-index:0;
+
+        }
+
+        #buttonsDiv{
+            position: absolute; 
+            left:0vw; 
+            display: inline-block; 
+            height:50vh; 
+            width:100vw; 
+            border:0px; 
+            padding:0px; 
+            /* background-color:purple;  */
+            /* background-size: 100vw 100%; */ 
+            /* background-repeat: no-repeat; */
+            transition-property: left;
+            transition-duration: 1s;
+            z-index:10;
+
+        }
+
+        #aboutus ul li a{
+            width:50vw;
+        }

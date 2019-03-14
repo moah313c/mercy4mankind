@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html style="height:100%; width:100%;">
+<head>
+    <title>Mercy for mankind</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Tangerine" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="format.css">
+    <script type="text/javascript" src="functionality.js"></script>
+   
+    
+
+</head>
+<body style="border:0px; margin:0px; height:100%; width:100%; background:url('bluegreen.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+
+<img style="display:block; max-width:30vw; max-height:calc(30*(2/5))vw; width:auto; height:auto; padding: 1vw;" src="toplogo.png">
+
+<div id="menubar" style="font-size: 2vh; font-family: Quicksand; color: white; text-align: center;
+             border-style: solid none; border-width: 2px; border-color: white;">
+    <div class="menu" id="menu1" style="margin:0px; display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Home</p1></div>
+    <div class="menu" id="menu2" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>About Us</p1></div>
+    <div class="menu" id="menu3" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Events</p1></div>
+    <div class="menu" id="menu4" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Get Involved</p1></div>
+    
+    <div onmouseover="mouseovermenubut('menu2')" onmouseout="mouseOutMenuBut('menu2')" id="aboutus" style="margin:0px; padding:0px; border:0px; text-align:center;">
+            <div style="display:inline-block; width:50vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">Mercy 4 Mankind: Mission</a></div>
+            <div style="display:inline-block; width:49vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">AMYA</a></div>
+    </div>
+
+    <div onmouseover="mouseovermenubut('menu3')" onmouseout="mouseOutMenuBut('menu3')" id="events" style="width=100vw; margin:0px; padding:0px; border:0px; text-align: center;">
+        
+            <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 1</a></div>
+            <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 2</a></div>
+            <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 3</a></div>
+        
+    </div>
+    
+</div>
+    
+    <div id="banner1">    </div>
+
+    <div id="banner2">    </div>
+    
+    <div id="banner3">    </div>
+
+    <div id="buttonsDiv"> 
+
+        <div id="leftbut" style="z-index:7; display:inline-block; position:relative; top:calc(25vh - 5vw); margin: 0; width:10vw; height:10vw; background-color:white; 
+        text-align:center;" onclick="leftBanner()"> 
+
+            <p style="line-height:10vw; color:black; font-size: 3vh; margin: auto auto;"><</p>
+        </div>
+
+        <div id="rightbut" style="z-index:7; display: inline-block; position: relative; left:80vw; top:calc(25vh - 5vw); margin:0; width:10vw; height:10vw; 
+        background-color:white; text-align:center;" onclick="nextBanner()">
+        
+            <p style="line-height:10vw; color:black; font-size: 3vh; margin: auto auto;">></p>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
