@@ -1,5 +1,13 @@
         #menubar{
             color:white;
+            height:7vh;
+            transition: height 0.2s ease-in;
+        }
+
+        #menubar:hover{
+            height: 12.8vh;
+            transition: height 0.2s ease-in;
+            
         }
 
         .menu:hover{
@@ -16,7 +24,7 @@
         }
 
         #aboutus div{
-            background-color: rgb(14, 100, 89);
+            margin: auto 0;
         }
 
         #aboutus div a{
@@ -32,8 +40,9 @@
         }
 
         #aboutus div:hover{
-            background-color: rgb(114, 233, 193);
+            background-color: rgb(255, 255, 255);
             color: black;
+            opacity:0.5;
             transition-property: background;
             transition-duration: 0.2s;
         }
@@ -147,44 +156,6 @@
         #aboutus ul li a{
             width:50vw;
         }
-
-        /* #intro{
-            display: block; 
-            height:50vh;
-            width:100vw;
-            border:0px; 
-            padding:10px; 
-            background:rgb(255, 255, 255);
-            opacity: 0.5;
-            margin-top: 60vh;
-        }
-
-        
-
-        #intro_left{
-            display: inline-block;
-            padding:10px;
-            border:0px;
-            width: 20vw;
-            height:20vh;
-            margin-left: 5vw;
-            margin-top: 10vh;
-            background-color: rgb(226, 168, 43);
-            
-        }
-
-         
-
-        #intro_right{
-            display: inline-block;
-            padding:10px;
-            border:0px;
-            width: 20vw;
-            height:20vh;
-            background-color: blueviolet;
-            margin-left: 5vw;
-            margin-top: 10vh;
-        } */
 
         
 

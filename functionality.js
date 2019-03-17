@@ -91,7 +91,6 @@ if(a==3){
 }
 
 function mouseOverSubMenu(whichMenu){
-    slide_down();
     document.getElementById(whichMenu).style.backgroundColor = "white";
     document.getElementById(whichMenu).style.opacity = "0.5";
     document.getElementById(whichMenu).style.color = "black";
@@ -105,7 +104,4 @@ function mouseOutSubMenu(whichMenu){
     return;
 }
 
-function slide_down(){
-    document.getElementById("menubar").style.height = "20vh";
-    return;
-}
+
