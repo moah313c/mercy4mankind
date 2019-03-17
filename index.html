@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="height:100%; width:100%;">
+<html style="max-height:100vh; max-width:100vw; overflow-x:hidden;">
 <head>
     <title>Mercy for mankind</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Tangerine" rel="stylesheet">
@@ -9,31 +9,31 @@
     
 
 </head>
-<body style="border:0px; margin:0px; height:100%; width:100%; background:url('bluegreen.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+<body style="border:0px; margin:0px; background:url('bluegreen.png'); background-repeat: no-repeat;  background-size: 100% 100%; background-attachment: fixed; position:static;">
 
-<img style="display:block; max-width:30vw; max-height:calc(30*(2/5))vw; width:auto; height:auto; padding: 1vw;" src="toplogo.png">
+    <img style="position: static; display:block; max-width:30vw; max-height:calc(30*(2/5))vw; width:auto; height:auto; padding: 1vw;" src="toplogo.png">
 
-<div id="menubar" style="font-size: 2vh; font-family: Quicksand; color: white; text-align: center;
-             border-style: solid none; border-width: 2px; border-color: white;">
-    <div class="menu" id="menu1" style="margin:0px; display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Home</p1></div>
-    <div class="menu" id="menu2" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>About Us</p1></div>
-    <div class="menu" id="menu3" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Events</p1></div>
-    <div class="menu" id="menu4" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Get Involved</p1></div>
-    
-    <div onmouseover="mouseOverSubMenu('menu2')" onmouseout="mouseOutSubMenu('menu2')" id="aboutus" style="margin:0px; padding:0px; border:0px; text-align:center;">
-            <div style="display:inline-block; width:50vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">Mercy 4 Mankind: Mission</a></div>
-            <div style="display:inline-block; width:49vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">AMYA</a></div>
-    </div>
-
-    <div onmouseover="mouseOverSubMenu('menu3')" onmouseout="mouseOutSubMenu('menu3')" id="events" style="width=100vw; margin:0px; padding:0px; border:0px; text-align: center;">
+    <div id="menubar" style="display:block; width:100vw; font-size: 2vh; font-family: Quicksand; color: white; text-align: center;
+                border-style: solid none; border-width: 2px; border-color: white;">
+        <div class="menu" id="menu1" style="margin:0px; display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Home</p1></div>
+        <div class="menu" id="menu2" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>About Us</p1></div>
+        <div class="menu" id="menu3" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Events</p1></div>
+        <div class="menu" id="menu4" style="display:inline-block; width: 23%; padding-top:2vh; padding-bottom:2vh;"><p1>Get Involved</p1></div>
         
-            <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 1</a></div>
-            <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 2</a></div>
-            <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 3</a></div>
+        <div onmouseover="mouseOverSubMenu('menu2')" onmouseout="mouseOutSubMenu('menu2')" id="aboutus" style="margin:0px; padding:0px; border:0px; position: absolute; z-index: 14; text-align:center;">
+                <div style="display:inline-block; width:45vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">Mercy 4 Mankind: Mission</a></div>
+                <div style="display:inline-block; width:45vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">AMYA</a></div>
+        </div>
+
+        <div onmouseover="mouseOverSubMenu('menu3')" onmouseout="mouseOutSubMenu('menu3')" id="events" style="width:100vw; margin:0px; padding:0px; border:0px; text-align: center;">
+            
+                <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 1</a></div>
+                <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 2</a></div>
+                <div style="display:inline-block; width:33vw; padding-top: 2vh; padding-bottom:2vh;"><a style="text-decoration: none;" href="">EVENT 3</a></div>
+            
+        </div>
         
     </div>
-    
-</div>
     
     <div id="banner1">    </div>
 
@@ -57,6 +57,22 @@
 
     </div>
 
+
+    <div id="intro" style="font-family: Quicksand; color: white; opacity:0.5; background-color: white; height:50vh; padding: 5vw 5vh; margin-top: 60vh;">
+
+        <div class="box" id="intro_left" style="margin:0px; margin-left: 10vw; display:inline-block; width: 30vw; color:black; vertical-align: middle;">
+            <div style="text-align: centre; font-size: 2vw;">AMYA Presents</div>
+            <div style="text-align: centre; font-size: 4vw;">Mercy for Mankind</div>
+            <div style="text-align: centre; font-size: 1.5vw;">Mercy for Mankind is a collective of humanitarian fund raising events organized by Ahmadiyya Muslim Youth Association (AMYA). These initiatives include cycling, running, walking to raise funds the entirety of which are donated to a prespecified charity organization.</div>
+            <a>More Details</a>
+        </div>
+
+        <div class="box" id="intro_right" style="margin:0px; margin-left: 10vw; display:inline-block; height:100%; width:30vw;
+        vertical-align: middle; border-style:solid; border-width:10px; border-color: black; text-align: centre; background-image: url('grad.jpg');
+        background-size: 30vw 100%; background-repeat: no-repeat;">
+                <!-- <div style="text-align: center; width:100%; margin: 46% 0; vertical-align: middle; color:black;">Picture here</div> -->
+        </div>
+    </div>
 
 
 </body>
