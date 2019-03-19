@@ -14,7 +14,7 @@ if(a==1){
     document.getElementById("banner3").style.zIndex = 0;
     document.getElementById("banner2").style.zIndex = -1;
     document.getElementById("banner1").style.left = "-100vw";
-    document.getElementById("banner2").style.left = "100vw";
+    document.getElementById("banner2").style.left = "-200vw";
     document.getElementById("banner3").style.left = "0vw";
     //resetZIndex();
     return;
@@ -27,7 +27,7 @@ if(a==2){
     document.getElementById("banner2").style.zIndex = 0;
     document.getElementById("banner3").style.zIndex = 0;
     document.getElementById("banner1").style.zIndex = -1;
-    document.getElementById("banner1").style.left = "100vw";
+    document.getElementById("banner1").style.left = "-200vw";
     document.getElementById("banner2").style.left = "0vw";
     document.getElementById("banner3").style.left = "-100vw";
     document.getElementById("banner1").style.zIndex = 0;
@@ -43,7 +43,7 @@ if(a==3){
     document.getElementById("banner3").style.zIndex = -1;
     document.getElementById("banner1").style.left = "0vw";
     document.getElementById("banner2").style.left = "-100vw";
-    document.getElementById("banner3").style.left = "100vw";
+    document.getElementById("banner3").style.left = "-200vw";
     return;
 }
 }
@@ -57,7 +57,7 @@ if(a==1){
     document.getElementById("banner1").style.zIndex = 0;
     document.getElementById("banner2").style.zIndex = 0;
     document.getElementById("banner3").style.zIndex = -1;
-    document.getElementById("banner1").style.left = "100vw";
+    document.getElementById("banner1").style.left = "-200vw";
     document.getElementById("banner2").style.left = "0vw";
     document.getElementById("banner3").style.left = "-100vw";
     return;
@@ -72,7 +72,7 @@ if(a==2){
     document.getElementById("banner2").style.zIndex = -1;
     document.getElementById("banner1").style.left = "0vw";
     document.getElementById("banner2").style.left = "-100vw";
-    document.getElementById("banner3").style.left = "100vw";
+    document.getElementById("banner3").style.left = "-200vw";
     return;
 }
 
@@ -84,7 +84,7 @@ if(a==3){
     document.getElementById("banner3").style.zIndex = 0;
     document.getElementById("banner1").style.zIndex = -1;
     document.getElementById("banner1").style.left = "-100vw";
-    document.getElementById("banner2").style.left = "100vw";
+    document.getElementById("banner2").style.left = "-200vw";
     document.getElementById("banner3").style.left = "0vw";
     return;
 }
@@ -104,4 +104,14 @@ function mouseOutSubMenu(whichMenu){
     return;
 }
 
+function dontOpenMenuBar(){
+    console.log("ok");
+    document.getElementById("menubar").style.height="6.4vh";
+    console.log("ok2");
+}
 
+function reverseDontOpenMenuBar(){
+    console.log("ok");
+    document.getElementById("menubar").style.height="";
+    console.log("ok2");
+}

@@ -1,6 +1,6 @@
         #menubar{
             color:white;
-            height:7vh;
+            height:6.4vh;
             transition: height 0.2s ease-in;
         }
 
@@ -16,6 +16,14 @@
             color: black;
             transition-property: background;
             transition-duration: 0.2s;
+        }
+
+        #menu1 a{
+            color:white;
+        }
+
+        #menu1 a:hover{
+            color:black;
         }
 
         #aboutus{
@@ -72,6 +80,31 @@
             transition-duration: 0.2s;
         }
 
+        #getInvolved{
+            display:none;
+            color: white;
+        }
+
+        #getInvolved div a{
+            color:inherit;
+        }
+
+        #menu4:hover ~ #getInvolved{
+            display:block;
+        }
+
+        #getInvolved:hover{
+            display:block;
+        }
+
+        #getInvolved div:hover{
+            background:white;
+            opacity:0.5;
+            color:black;
+            transition-property:background;
+            transition-duration: 0.2s;
+        }
+
         #leftbut{
             opacity: 0.5;
         }
@@ -121,7 +154,7 @@
 
         #banner3{
             position: absolute; 
-            left:100vw; 
+            left:-200vw; 
             display: inline-block; 
             height:50vh; 
             width:99vw; 
