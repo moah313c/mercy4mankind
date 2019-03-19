@@ -1,3 +1,4 @@
+//testing
 var a, b, c;
 a=1; //front banner 
 b=2; //left banner 
