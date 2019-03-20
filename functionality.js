@@ -17,7 +17,8 @@ if(a==1){
     document.getElementById("banner1").style.left = "-100vw";
     document.getElementById("banner2").style.left = "-200vw";
     document.getElementById("banner3").style.left = "0vw";
-    //resetZIndex();
+
+    document.getElementById("banner_button").style.left="-100vw";
     return;
 }
 
@@ -32,6 +33,7 @@ if(a==2){
     document.getElementById("banner2").style.left = "0vw";
     document.getElementById("banner3").style.left = "-100vw";
     document.getElementById("banner1").style.zIndex = 0;
+    document.getElementById("banner_button").style.left="-200vw";
     return;
 }
 
@@ -45,6 +47,7 @@ if(a==3){
     document.getElementById("banner1").style.left = "0vw";
     document.getElementById("banner2").style.left = "-100vw";
     document.getElementById("banner3").style.left = "-200vw";
+    document.getElementById("banner_button").style.left="0vw";
     return;
 }
 }
@@ -61,6 +64,7 @@ if(a==1){
     document.getElementById("banner1").style.left = "-200vw";
     document.getElementById("banner2").style.left = "0vw";
     document.getElementById("banner3").style.left = "-100vw";
+    document.getElementById("banner_button").style.left="-200vw";
     return;
 }
 
@@ -74,6 +78,7 @@ if(a==2){
     document.getElementById("banner1").style.left = "0vw";
     document.getElementById("banner2").style.left = "-100vw";
     document.getElementById("banner3").style.left = "-200vw";
+    document.getElementById("banner_button").style.left="0vw";
     return;
 }
 
@@ -87,6 +92,7 @@ if(a==3){
     document.getElementById("banner1").style.left = "-100vw";
     document.getElementById("banner2").style.left = "-200vw";
     document.getElementById("banner3").style.left = "0vw";
+    document.getElementById("banner_button").style.left="-100vw";
     return;
 }
 }
